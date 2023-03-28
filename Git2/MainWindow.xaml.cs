@@ -24,5 +24,11 @@ namespace Git2
         {
             InitializeComponent();
         }
+
+        private void Button_HW_Click(object sender, RoutedEventArgs e)
+        {
+            img1.Height += 20;
+            img1.Width += 20;
+        }
     }
 }
