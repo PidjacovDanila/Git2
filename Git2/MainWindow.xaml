@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Изменить размер фото ?" Click="Button_HW_Click" Name="Button_HW" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="300" Margin="490,10,0,0"/>
+        <StackPanel Margin="0,0,315,0">
+            <Image x:Name="img1" Width="50" Height="50"  Source="da.jpg" Stretch="Fill"/>
+        </StackPanel>
     </Grid>
 </Window>
